@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gaoli\\Assignment 0 -Timer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gaoli\\Assignment 0 -Timer\\Assets\\Scenes\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scenes\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gaoli\\Assignment 0 -Timer\\Assets\\Scenes\\Scripts\\CoinS.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scenes\\Scripts\\CoinS.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gaoli\\Assignment 0 -Timer\\Assets\\Scenes\\Scripts\\CoinG.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scenes\\Scripts\\CoinG.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gaoli\\Assignment 0 -Timer\\Assets\\Scenes\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scenes\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gaoli\\Assignment 0 -Timer\\Assets\\Scenes\\Scripts\\Timer1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scenes\\Scripts\\Timer1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CoinS.cs",
+              "DocumentMoniker": "C:\\Users\\gaoli\\Assignment 0 -Timer\\Assets\\Scenes\\Scripts\\CoinS.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\CoinS.cs",
+              "ToolTip": "C:\\Users\\gaoli\\Assignment 0 -Timer\\Assets\\Scenes\\Scripts\\CoinS.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scripts\\CoinS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T12:44:12.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CoinG.cs",
+              "DocumentMoniker": "C:\\Users\\gaoli\\Assignment 0 -Timer\\Assets\\Scenes\\Scripts\\CoinG.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\CoinG.cs",
+              "ToolTip": "C:\\Users\\gaoli\\Assignment 0 -Timer\\Assets\\Scenes\\Scripts\\CoinG.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scripts\\CoinG.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T12:40:12.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\gaoli\\Assignment 0 -Timer\\Assets\\Scenes\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\gaoli\\Assignment 0 -Timer\\Assets\\Scenes\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAADwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T17:30:25.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Timer1.cs",
+              "DocumentMoniker": "C:\\Users\\gaoli\\Assignment 0 -Timer\\Assets\\Scenes\\Scripts\\Timer1.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\Timer1.cs",
+              "ToolTip": "C:\\Users\\gaoli\\Assignment 0 -Timer\\Assets\\Scenes\\Scripts\\Timer1.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scripts\\Timer1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T17:07:36.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\gaoli\\Assignment 0 -Timer\\Assets\\Scenes\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\gaoli\\Assignment 0 -Timer\\Assets\\Scenes\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T16:44:33.441Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
