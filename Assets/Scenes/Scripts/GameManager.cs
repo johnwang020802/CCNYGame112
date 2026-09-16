@@ -6,10 +6,22 @@ public class GameManager : MonoBehaviour
 {
     // Make this script globally accessible
     public static GameManager Instance;
+    
+    [Header("Player Control")]
+    public PlayerMovement playerMovement;
+
+    [Header("Game Timer")] 
+    public float gameDuration = 30f;   // Total game time
+    private float gameTimer;
+    private bool gameOver = false;
+
 
     [Header("Score System")]
     public int score = 0;              // Player's score
     public TMP_Text scoreText;         // UI text that displays the score
+
+     [Header("Game Over UI")]
+    public TMP_Text gameOverText;    // UI text that displays the score
 
 
     [Header("Coin Prefabs")]
@@ -41,12 +53,32 @@ public class GameManager : MonoBehaviour
         // Silver coin spawns immediately (timer starts at 0)
         silverTimer = 0f;
 
+         //Timer to count game duration
+        gameTimer = gameDuration;
+
         // Update score UI at the start
         UpdateScoreUI();
     }
 
     void Update()
     {
+        // Game countdown
+        if (!gameOver)
+        {
+            gameTimer -= Time.deltaTime;
+
+            if (gameTimer <= 0f)
+            {
+                gameOver = true;
+                EndGame();
+                return; // Stop Update() from running further
+            }
+        }
+        else
+        {
+            return; // Game already ended
+        }
+        
         // Golden coin timer
         goldenTimer -= Time.deltaTime;
         if (goldenTimer <= 0f)
@@ -87,6 +119,26 @@ public class GameManager : MonoBehaviour
     {
         score += amount;
         UpdateScoreUI();
+    }
+
+    void EndGame()
+    {
+        Debug.Log("Game Over! Final Score: " + score);
+
+        // Optional: stop spawning coins
+        goldenTimer = float.MaxValue;
+        silverTimer = float.MaxValue;
+
+        // Optional: disable player input
+        // (You can add more logic here later)
+        // Show Game Over text
+    if (gameOverText != null){
+        gameOverText.gameObject.SetActive(true);
+    }
+    // Freeze player movement
+    if (playerMovement != null){
+        playerMovement.enabled = false;
+    }
     }
 
     // Update the score text on screen
