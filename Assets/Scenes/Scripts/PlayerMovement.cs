@@ -16,6 +16,16 @@ public class PlayerMovement : MonoBehaviour
             (Keyboard.current.sKey.isPressed ? -1 : 
             Keyboard.current.wKey.isPressed ? 1 : 0);
 
+       //create a sprint mechanism
+        if (Keyboard.current.shiftKey.isPressed)
+        {
+            speed = 10f;
+        }
+        else 
+        {
+            speed = 5f;  
+        }
+
 
         // Create a movement direction
         Vector3 move = new Vector3(x, y, 0f);
